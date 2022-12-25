@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -xe
 
 if [ "$NODE_ENV" = "production" ]; then
   node lib/server.js
